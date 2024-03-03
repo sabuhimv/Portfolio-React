@@ -6,7 +6,7 @@ const Hire = () => {
   return (
     <div
       className="fixed right-4 bottom-4
-    flex items-center justify-center overflow-hidden md:right-8 md:left-auto md:top-[21px] md:bottom-auto md:absolute z-20"
+    flex items-center justify-center overflow-hidden md:right-8 md:left-auto md:top-[21px] md:bottom-auto md:absolute z-20 sm:top-[5px]"
     >
       <div className="w-48 h-auto flex items-center justify-center relative md:w-24">
         <CircularText

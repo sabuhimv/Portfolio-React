@@ -7,7 +7,7 @@ import "./Header.css";
 import { RxCross2 } from "react-icons/rx";
 
 const Header = () => {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   const location = useLocation();
 
@@ -18,7 +18,7 @@ const Header = () => {
   return (
     <header
       id="header"
-      className="my-container w-full flex items-center justify-between lg:px-16 md:px-12 sm:px-8 lg:justify-center"
+      className="my-container w-full flex items-center justify-between lg:px-16 md:px-12 sm:px-8 lg:justify-center sm:pt-3"
     >
       
       {isOpen ? (
