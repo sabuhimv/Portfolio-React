@@ -29,33 +29,38 @@ const AnimatedNumbers = ({ value }) => {
 const About = () => {
   return (
     <div className="my-container flex flex-col lg:px-16 lg:pt-4 sm:px-9">
-      <p className="text-dark font-bold text-5xl pb-4 lg:text-center">Passion Fuels Purpose!</p>
+      <p className="text-dark font-bold text-5xl pb-4 lg:text-center">
+        Passion Fuels Purpose!
+      </p>
 
       <div className="about-body flex items-center justify-between flex-wrap pt-8">
-
         <div className="about-left w-1/3 pr-12 lg:w-1/2 md:w-full md:pb-5 md:pr-0">
           <h2 className="mb-4 text-lg font-bold uppercase text-dark/75">
             Biography
           </h2>
 
           <p className="my-4 font-medium">
-            Hi, I'm <b>Sabuhi Mammadov</b>, a web developer with a passion for creating
-            beautiful, functional, and user-centered digital experiences. I am
-            always looking for new and innovative ways to bring my clients'
-            visions to life.
+            Hi, I'm <b>Sabuhi Mammadov</b>, a web developer with a passion for
+            creating beautiful, functional, and user-centered digital
+            experiences. I am always looking for new and innovative ways to
+            bring my clients' visions to life.
           </p>
 
           <p className="my-4 font-medium">
-            I believe that design is about more than just making things look
-            pretty – it's about solving problems and creating intuitive,
-            enjoyable experiences for users.
+            I am a skilled Front-End Developer with extensive experience in
+            creating dynamic and responsive web applications. With a solid
+            foundation in front-end technologies, I have had the privilege of
+            working with prominent organizations in Azerbaijan, including Buta
+            Group Azerbaijan and PASHA Bank OJSC.
           </p>
 
           <p className="my-4 font-medium">
-            Whether I'm working on a website, mobile app, or other digital
-            product, I bring my commitment to design excellence and
-            user-centered thinking to every project I work on. I look forward to
-            the opportunity to bring my skills and passion to your next project.
+            My career is marked by a commitment to excellence and a passion for
+            continuous learning. My ability to adapt to new challenges and
+            technologies has made me a valuable asset to every team I have been
+            a part of. In addition to my technical skills, I have also served as
+            a mentor, guiding and supporting new developers in their
+            professional growth.
           </p>
         </div>
 
@@ -65,39 +70,25 @@ const About = () => {
         </div>
 
         <div className="flex flex-col items-end justify-between lg:w-full lg:items-center lg:flex-row lg:pt-8">
-
           <div className="flex flex-col items-end justify-center md:items-start">
             <span className="inline-block text-7xl font-bold md:text-4xl">
-              <AnimatedNumbers value={5} /> +
+              <AnimatedNumbers value={6} /> +
             </span>
-
             <h2 className="text-xl font-medium capitalize text-dark/75 md:text-base">
-              Clients satisfed
+              Projects
             </h2>
           </div>
 
           <div className="flex flex-col items-end justify-center md:items-start">
             <span className="inline-block text-7xl font-bold md:text-4xl">
-              <AnimatedNumbers value={10} /> +
+              <AnimatedNumbers value={1} /> year
             </span>
             <h2 className="text-xl font-medium capitalize text-dark/75 md:text-base">
-              Projects completed
+              Experience
             </h2>
           </div>
-
-          <div className="flex flex-col items-end justify-center md:items-start">
-            <span className="inline-block text-7xl font-bold md:text-4xl">
-              <AnimatedNumbers value={3} /> +
-            </span>
-            <h2 className="text-xl font-medium capitalize text-dark/75 md:text-base">
-              lorem ipsum
-            </h2>
-          </div>
-
         </div>
-
       </div>
-
     </div>
   );
 };

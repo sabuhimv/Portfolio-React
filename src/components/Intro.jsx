@@ -8,17 +8,18 @@ const Intro = () => {
   return (
     <div className="my-container flex items-center justify-between lg:flex-col lg:px-16 lg:pt-4">
       <div className="hero-left w-1/2 flex flex-col pr-7 lg:w-full pl-[50px] lg:text-center lg:px-0">
-        <p className="text-dark font-bold text-xl pb-3 md:text-lg sm:pb-0 xs:text-sm ">👋 Hey, I'm Sabuhi Mv</p>
+        <p className="text-dark font-bold text-xl pb-3 md:text-lg sm:pb-0 xs:text-sm ">
+          👋 Hey, I'm Sabuhi Mv
+        </p>
         <h2 className="text-dark font-bold capitalize text-4xl pb-3 md:text-3xl  sm:pb-1">
-        Turning Vision Into Reality With Code.
+          Turning Vision Into Reality With Code.
         </h2>
         <span className="text-darkblue text-base font-medium sm:text-sm">
-          As a front-end enthusiast, I've had the pleasure of working on diverse
-          projects that demand creativity and precision. My React proficiency
-          has allowed me to craft seamless user interfaces and delightful user
-          experiences. Now, I'm expanding my horizons by diving into Java, where
-          I aim to deepen my understanding of back-end development and broaden
-          my skill set.
+          Throughout my career, I have worked in various companies as both a
+          Front-End Developer and a Front-End Mentor. I have contributed to
+          multiple large-scale projects, developing user-friendly, interactive,
+          and modern web applications. My primary goal is to enhance user
+          experience by delivering innovative solutions.
         </span>
 
         <div className="flex items-center self-start mt-6 lg:self-center md:mt-4">
@@ -28,12 +29,13 @@ const Intro = () => {
             download={true}
             className="flex items-center mr-5 bg-dark text-light p-2.5 rounded-lg text-lg font-semibold
               hover:bg-light hover:text-dark border border-solid border-transparent 
-              hover:border-dark md:text-base">
+              hover:border-dark md:text-base"
+          >
             Resume <FaArrowUpRightFromSquare className={"text-xs ml-3"} />
           </a>
           <a
             href="mailto:sabuhimv@icloud.com"
-            className="text-lg font-medium capitalize text-dark underline md:text-base"  
+            className="text-lg font-medium capitalize text-dark underline md:text-base"
           >
             Contact
           </a>
